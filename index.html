@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <img src="./images/Rlogo.jpg">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item ">
+                    <a class="nav-link active" aria-current="page" href="#" style="color:red; margin:0 20px">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" style="color:black; margin: 0 6px;">Project</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" style="color:black ;margin: 0 6px;">Pages</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" style="color:black ;margin: 0 6px;">Elements</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" style="color:black; margin: 0 6px;">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" style="color:black ;margin: 0 6px;">Shop</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" style="color:black ;margin: 0 6px;">Contact</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search" style="color:red;margin-right:30px; padding: 5px;background-color: lavender; box-shadow: 2px 2px 2px black;">
+                  <h5>Buy Rogan ---></h5>
+                </form>
+              </div>
+            </div>
+          </nav>
+          <div id="head">
+            <div class="section">
+                <div class="main">
+                    
+                    <h1 style="color:rgb(35, 10, 75)"><button class="click">75% off for 3 months</button>Digital Agencies with Excellent Services.</h1>
+                    <p>The Three golden rules Desisgner don't Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium tenetur tempora culpa mollitia quis corrupti corporis nihil ut ullam blanditiis! Numquam quidem asperiores voluptatem eligendi ab sed dolorum, inventore illum?</p>
+            </div>
+              <div class="box">
+                <img src="./images/Digital.jpg">
+              </div>
+              </div>
+            </div>
+            <div class="footer">
+                <footer>
+                    <div class="part1">
+                       Student Name
+                    </div>
+                    <div class="part2">
+                        University Rollno
+                    </div>
+                    <div class="part3">
+                        University
+                    </div>
+                    <div class="part4">
+                        Date
+                    </div>
+                </footer>
+            </div>
+            <script>
+           document.getElementsByClassName("part1")[0].innerHTML="Archie Gaur";
+           document.getElementsByClassName("part2")[0].textContent="201550035";
+           document.getElementsByClassName("part3")[0].textContent="GLA University";
+           document.getElementsByClassName("part4")[0].textContent=myfunc();
+  function myfunc(){
+      const d= new Date();
+      d.getTime();
+      return d;
+  }
+     </script>
+    </body>
+</html>
